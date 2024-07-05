@@ -7,7 +7,6 @@ print(my_dict)
 del my_dict['Oleg']
 print(my_dict)
 
-
 my_set = {1, 2, 3, 3, 5, True, 'str', True}
 print(my_set)
 my_set.add(4)
