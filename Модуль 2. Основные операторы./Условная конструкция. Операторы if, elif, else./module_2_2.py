@@ -2,8 +2,8 @@ first = int(input('Введите первое число: '))
 second = int(input('Введите второе число: '))
 third = int(input('Введите третье число: '))
 if first == second and second == third:
-    print("3")
+    print('Число:3')
 elif first == second or first == third or not second != third:
-    print("2")
+    print("Число:2")
 else:
-    print('0')
+    print('Число:0')
