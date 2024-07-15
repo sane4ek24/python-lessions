@@ -5,8 +5,6 @@ result = []
 print(f'Число в первой вставке: {first_number}')
 for i in range(1, 21):
     for j in range(1, 21):
-        if i == j:
-            continue
         if first_number % (i + j) == 0 and j > i:
             result.append(i)
             result.append(j)
