@@ -1,6 +1,8 @@
-def divide(first, second):
+from math import inf
+
+
+def fake_divide(first, second):
     if second == 0:
-        print("Ошибка")
-    return first / second
-
-
+        return inf
+    else:
+        return first / second
