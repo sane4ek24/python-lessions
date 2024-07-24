@@ -1,7 +1,7 @@
 from math import inf
 
 
-def fake_divide(first, second):
+def f_divide(first, second):
     if second == 0:
         return inf
     else:

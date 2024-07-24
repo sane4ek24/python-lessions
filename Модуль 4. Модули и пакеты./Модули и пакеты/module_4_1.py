@@ -1,10 +1,10 @@
-from fake_math import fake_divide
-from true_math import true_divide
+from fake_math import f_divide
+from true_math import t_divide
 
-result1 = fake_divide(69, 3)
-result2 = fake_divide(3, 0)
-result3 = true_divide(49, 7)
-result4 = true_divide(15, 0)
+result1 = f_divide(69, 3)
+result2 = f_divide(3, 0)
+result3 = t_divide(49, 7)
+result4 = t_divide(15, 0)
 print(result1)
 print(result2)
 print(result3)
