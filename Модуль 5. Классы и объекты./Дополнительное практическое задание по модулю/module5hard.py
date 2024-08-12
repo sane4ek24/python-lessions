@@ -79,7 +79,6 @@ class User:
     def __hash__(self):
         return hash(self.password)
 
-
 if __name__ == '__main__':
     ur = UrTube()
     v1 = Video('Лучший язык программирования 2024 года', 200)
