@@ -27,3 +27,5 @@ img2 = Image.open("1.webp")
 new_size = (500, 500)
 img2.thumbnail(new_size)
 img2.save("final1.webp")
+
+"""благода библиотеке PIL я смог легко изменить формат фотографии и ее размер, это очень удобно"""
