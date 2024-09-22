@@ -12,10 +12,11 @@ class Bank(threading.Thread):
     def deposit(self):
         for i in range(100):
             depo = random.randint(50, 500)
-            self.balance += depo
-            print(f'Пополнение: {depo}. Баланс: {self.balance}')
             if self.balance >= 500 and self.lock.locked():
                 self.lock.release()
+            self.balance += depo
+            print(f'Пополнение: {depo}. Баланс: {self.balance}')
+
             time.sleep(0.001)
 
     def take(self):
