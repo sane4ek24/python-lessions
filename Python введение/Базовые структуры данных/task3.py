@@ -1,2 +1,8 @@
 # 3rd program
-print((1234 // 10 % 100) + (5678 // 10 % 100))
+without_priority = 2 + 2 * 2
+print(without_priority)
+
+with_priority = (2 + 2) * 2
+print(with_priority)
+
+print(with_priority == without_priority)

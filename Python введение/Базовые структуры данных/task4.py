@@ -1,2 +1,7 @@
 # 4th program
-print((13.42 * 100 //100) == (42.13 * 100 % 100) or (13.42 * 100 % 100) == 42.13 * 100 // 100)
+a = '123.456'
+num = float(a)
+b = num * 10
+print(b)
+total = int(b * 100 // 100 % 10)
+print(total)
